@@ -207,3 +207,65 @@ footer{
 
 
 
+/* Réorganiser la mise en page pour les petits écrans */
+@media screen and (max-width: 768px) {
+    /* Réduire la largeur du conteneur principal */
+    #container {
+        width: 100%;
+    }
+
+    /* Réorganiser la disposition de l'en-tête */
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left, .right {
+        text-align: center;
+    }
+
+    /* Réduire la taille de la police dans l'en-tête */
+    .container_info_header {
+        font-size: smaller;
+    }
+
+    .devis_titre h2 {
+        font-size: 1.5rem;
+    }
+
+    /* Ajuster la largeur des sections client et mission */
+    .section-infos .client, .section-infos .mission {
+        width: 100%;
+    }
+
+    /* Réorganiser la table pour s'adapter à un petit écran */
+    .table-cell {
+        padding: 5px;
+    }
+
+    /* Réduire la taille de la police dans la table */
+    .table-header, .table-cell, .infos {
+        font-size: smaller;
+    }
+
+    /* Réduire la taille du texte dans les cachets */
+    .cachet .entreprise, .cachet .client {
+        font-size: x-small;
+        height: 5rem;
+    }
+
+    /* Ajuster la largeur des sections de paiement et de cachets */
+    .paiement, .cachet {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Réduire la taille de la police dans la section de paiement */
+    .moyen-de-paiment label {
+        font-size: smaller;
+    }
+
+    .condition {
+        width: 80%;
+    }
+}
