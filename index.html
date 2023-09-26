@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facture n° {n° Facture}</title>
+</head>
+
+<body>
+    <div class="deco"></div>
+    <div id="container">
+        <header>
+            <div class="left">
+                <div class="container_info_header">
+                    <img src="assets/logo_proximity.jpeg" alt="Votre logo">
+
+                    <div class="infos">Compte Contribuable N° 2242525A</div>
+                    <div class="infos">RCCM : CI-ABJ-03-2022-B13-05599</div>
+                    <div class="infos">SARLU au capital de 1.000.000 F CFA</div>
+                    <div class="infos">Lieu : Riviera Bonoumin - Rond point ADO</div>
+                    <div class="infos">Contact : +225 05 00 50 79 52</div>
+                    <div class="infos">E-mail : contact@proximiti.ci</div>
+                    <div class="infos">Site : www.proximiti.ci</div>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="devis_titre">
+                    <h2>DEVIS</h2>
+                </div>
+                <div class="infos">Devis Numéro </div>
+                <div class="infos">Date : 19/09/2023</div>
+                <div class="infos">Expiration le : 01/01/1970</div>
+                <div class="infos">Code Client : PROXI-30151</div>
+            </div>
+        </header>
+
+        <section class="section-infos">
+          <div class="client">
+            <div class="info_client" id="nom_client">
+                Identité Client: Loic Sydney
+            </div>
+            <div class="info_client">
+                Contact: +225 00000000
+            </div>
+            <div class="info_client">
+                Adresse : Abatta
+            </div>
+           
+          </div>
+          <div class="mission">
+            
+            <div class="info_client">
+                Descriptif de la Mission:
+
+            </div>
+          </div>
+        </section>
+        
+
+
+
+        <main>
+            <div class="table-container">
+                <div class="table-row table-header">
+                    <div class="table-cell">Designation</div>
+                    <div class="table-cell">Prix Unitaire</div>
+                    <div class="table-cell">Quantité</div>
+                    <div class="table-cell">Total</div>
+                </div>
+                <div class="table-row even">
+                    <div class="table-cell">Produit 1</div>
+                    <div class="table-cell">CFA 10.00</div>
+                    <div class="table-cell">2</div>
+                    <div class="table-cell">CFA 20.00</div>
+                </div>
+                <div class="table-row odd">
+                    <div class="table-cell">Produit 2</div>
+                    <div class="table-cell">3</div>
+                    <div class="table-cell">3</div>
+                    <div class="table-cell">45.00 </div>
+                </div>
+                <div class="table-row even">
+                    <div class="table-cell">Produit 2</div>
+                    <div class="table-cell">3</div>
+                    <div class="table-cell">3</div>
+                    <div class="table-cell">CFA 45.00</div>
+                </div>
+                <div class="table-row table-total">
+                    <div class="table-cell"></div>
+                    <div class="table-cell"></div>
+                    <div class="table-cell">Total à payer :</div>
+                    <div class="table-cell">CFA65.00</div>
+                </div>
+            </div>
+
+            <section class="paiement">
+                <div class="moyen-de-paiment">
+                    <h4>Moyens de Paiement</h3>
+                    <label>
+                        <input type="checkbox" name="paiement" value="carte-credit">
+                        Espèces
+                    </label>
+                    <label>
+                        <input type="checkbox" name="paiement" value="virement-bancaire">
+                        Mobile Money
+                    </label>
+                    <label>
+                        <input type="checkbox" name="paiement" value="paiement-especes">
+                        Carte Bancaire
+                    </label>
+                </div>
+                <div class="condition">
+                    <h4>Conditions de règlement</h3>
+                    <p>
+                       Accompte de 30% à la commande , soldé à la livraison
+                    </p>
+                </div>
+            </section>
+            <p class="consigne">Si le devis vous convient, merci de nous le ramener signé et marqué de la mention 'Bon pour accord et commande'</p>
+
+            <section class="cachet">
+                <div class="entreprise">
+                    <h5>Cachet de l'entreprise</h5>
+                       </div>
+                <div class="client">
+                    <h5>Cadre reservé au client
+                        <br>
+                        Fais à Abidjan
+                    </h5>
+                           </div>
+            </section>
+
+            <p class="consigne" id="cgg">**Voir CGV au verso, le client reconnait avoir lu et accepté les conditions generale de vente disponible sur www.proximiti.ci</p>
+            <p class="consigne" id="tva">*Les prestations rendues en Cote d'Ivoire sont soumises à la TVA ivoirienne au taux de 18% (Lieu d'excécution - Article 351 du CGI ivoirien).</p>
+            
+        </main>
+
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
+</html>
