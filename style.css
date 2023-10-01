@@ -211,17 +211,18 @@ footer{
 @media screen and (max-width: 768px) {
     /* Réduire la largeur du conteneur principal */
     #container {
+        padding-right: 0.3rem;
         width: 100%;
     }
 
     /* Réorganiser la disposition de l'en-tête */
     header {
-        flex-direction: column;
-        text-align: center;
+        flex-direction: row;
+        text-align: left;
     }
 
     .left, .right {
-        text-align: center;
+        text-align: left;
     }
 
     /* Réduire la taille de la police dans l'en-tête */
@@ -230,7 +231,7 @@ footer{
     }
 
     .devis_titre h2 {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     /* Ajuster la largeur des sections client et mission */
@@ -256,7 +257,7 @@ footer{
 
     /* Ajuster la largeur des sections de paiement et de cachets */
     .paiement, .cachet {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
